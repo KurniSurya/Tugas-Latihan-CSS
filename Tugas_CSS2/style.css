@@ -1,0 +1,96 @@
+body{
+    /* background dalam halaman */
+    background-color: dimgray;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: grey;
+}
+
+.sidebar{
+    width: 400px;
+    float: left;
+}
+
+.content{
+    width: 600px;
+    float: right;
+} 
+
+.clear{
+    clear: both;
+}
+
+#logo{
+    float: left;
+    width: 150px;
+    height: auto;
+    padding: 20px;
+}
+
+#logo img{
+    max-width: 100%;
+    height: auto;
+} 
+
+#menu{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    float: right;
+    width: 750px;
+}
+
+#menu li{
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#menu li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.blog-content{
+    float: left;
+    max-width: 200px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.blog-content img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.recent-artikel{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.recent-artikel ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
